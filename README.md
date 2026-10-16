@@ -343,6 +343,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 <img width="462" height="112" alt="image" src="https://github.com/user-attachments/assets/256bb8f1-33c9-413c-84de-a6a5b3bd92c1" />
 
 
@@ -492,6 +493,7 @@ echo $?
 abcd
 echo $?
 ## OUTPUT
+<img width="298" height="72" alt="image" src="https://github.com/user-attachments/assets/65aca98f-ce4d-443d-8c1f-fefec2995965" />
 
 
  
@@ -523,7 +525,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+<img width="442" height="242" alt="image" src="https://github.com/user-attachments/assets/7162ac6a-6419-4f0f-b9f9-e566830fa041" />
 
 
 
@@ -531,6 +534,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="492" height="145" alt="image" src="https://github.com/user-attachments/assets/de5ac71c-613c-4451-bffb-8449def8a1e0" />
 
 
 # check file ownership
@@ -558,6 +562,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="388" height="80" alt="image" src="https://github.com/user-attachments/assets/2b7614f2-cacc-4fd5-836e-1d8ab926ffba" />
 
 # check if with file location
 cat>ifnested.sh 

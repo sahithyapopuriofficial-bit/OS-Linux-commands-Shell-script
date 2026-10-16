@@ -402,12 +402,14 @@ cat urllist.txt | tr -d ' '
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="555" height="147" alt="image" src="https://github.com/user-attachments/assets/b2d6e732-7de9-43fe-93df-c18ebc53e966" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="371" height="251" alt="image" src="https://github.com/user-attachments/assets/0879233f-ad5f-4904-9c8e-a84cf8ca07ca" />
 
 
 mkdir backupdir
@@ -418,30 +420,24 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="645" height="305" alt="image" src="https://github.com/user-attachments/assets/bbd05c70-5074-4747-9718-68bc7a1ff76b" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="438" height="245" alt="image" src="https://github.com/user-attachments/assets/d93af3a9-08d6-4197-a91e-2538c637bbd6" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="472" height="87" alt="image" src="https://github.com/user-attachments/assets/fe851cc6-e5be-4f2a-98d6-17e214b7c78b" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="462" height="43" alt="image" src="https://github.com/user-attachments/assets/055a7ce9-46ab-46b7-b761-ccac3b265742" />
 
- 
-# Shell Script
-```
-echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
-chmod 755 my-script.sh
-./my-script.sh
-## OUTPUT
 
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -452,6 +448,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="337" height="136" alt="image" src="https://github.com/user-attachments/assets/a826827c-a3e3-4ab0-9530-b9417443d5af" />
 
 
 cat < scriptest.sh 
@@ -469,31 +466,19 @@ echo 'The $$ is ' $$
 ps
 ^d
  ```
-
-cat scriptest.sh 
-```bash
-\#!/bin/sh
-echo “File name is $0 ”
-echo "File name is " `basename $0`
-echo “First arg. is ” $1
-echo “Second arg. is ” $2
-echo “Third arg. is ” $3
-echo “Fourth arg. is ” $4
-echo 'The $@ is ' $@
-echo 'The $\# is ' $\#
-echo 'The $$ is ' $$
-ps
-```
  
 chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="503" height="865" alt="image" src="https://github.com/user-attachments/assets/fc09dfc8-4f09-4f0b-b674-4eac7034ca73" />
+<img width="633" height="375" alt="image" src="https://github.com/user-attachments/assets/b9c071b1-b205-4afd-b380-90bd67548f30" />
 
  
 ls file1
 ## OUTPUT
+<img width="247" height="85" alt="image" src="https://github.com/user-attachments/assets/8bc1c59b-4b5a-4e7e-b641-4dc0f5459e9a" />
 
 echo $?
 ## OUTPUT 
@@ -502,11 +487,11 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="252" height="73" alt="image" src="https://github.com/user-attachments/assets/4b72fd59-a8f5-4b0c-8d31-9a55c32c968d" />
+
 abcd
- 
 echo $?
- ## OUTPUT
+## OUTPUT
 
 
  

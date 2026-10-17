@@ -609,6 +609,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="422" height="77" alt="image" src="https://github.com/user-attachments/assets/0ab275e5-2ce9-4cad-af15-8c1d382147df" />
 
 
 
@@ -652,7 +653,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+<img width="502" height="452" alt="image" src="https://github.com/user-attachments/assets/dddabc97-a6a2-405a-9a68-3852b395a6fc" />
 
 # check if a file
 cat > ifnested.sh 
